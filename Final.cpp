@@ -153,7 +153,7 @@ int main() //main function to handle user input
         switch (choice)
         {
         case 1:
-            filename = "/Users/georgelimajr/Desktop/CS 300/CS 300 ABCU_Advising_Program_Input.csv"; //this is the file path for my machine it would just need to changed per user, or embedded in a second file like previous, for this assignment i believe I was meant to keep things to one file
+            filename = "/file/path; //this is the file path for my machine it would just need to changed per user, or embedded in a second file like previous, for this assignment i believe I was meant to keep things to one file
             cout << "Loading file: " << filename << endl;
 
             loadCoursesFromFile(bst, filename);
